@@ -1,6 +1,6 @@
 /* StudyFlow service worker: เปิดออฟไลน์ได้ + รับแจ้งเตือนจากระบบ (push)
    เลขเวอร์ชันด้านล่างเปลี่ยนตามเวอร์ชันแอปทุกครั้ง เพื่อให้เครื่องผู้ใช้โหลดไฟล์ใหม่ */
-const VERSION = 'studyflow-1.0.3';
+const VERSION = 'studyflow-1.0.2';
 const FILES = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'icon-maskable-512.png', 'apple-touch-icon.png',
   'Sarabun-Regular.ttf', 'Sarabun-Medium.ttf', 'Sarabun-SemiBold.ttf', 'Sarabun-Bold.ttf'];
 self.addEventListener('install', e => {
